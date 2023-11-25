@@ -728,3 +728,46 @@ footer .end span{
     border-radius: 15px;
 }
 
+@media (max-width: 960px) {
+    .first-page{
+        flex-direction: column-reverse;
+    }
+    .as{
+        flex-direction: column;
+        margin-top: 15%;
+    }
+
+    .menu .menu_box{
+        flex-wrap: wrap;
+        width: 95%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 15px;
+    }
+
+    .review{
+        justify-content: center;
+        margin-bottom: 120em;
+    }
+
+    .review .review_box{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+    }
+
+
+    .order .order_main .order_image img{
+    display: none;
+    }
+
+    .team .team_box{
+       flex-direction: column;
+    }
+    
+}
